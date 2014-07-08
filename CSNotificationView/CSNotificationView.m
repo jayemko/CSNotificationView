@@ -330,7 +330,9 @@ static NSString * kCSNavigationBarBoundsKeyPath = @"bounds";
         
         [super layoutSubviews];
     }
-    
+
+    [self.toolbar setBackgroundImage:nil forToolbarPosition:UIToolbarPositionAny barMetrics:UIBarMetricsDefault];    
+
 }
 
 - (void)setFrame:(CGRect)frame
